@@ -11,7 +11,7 @@ const Pilha = (tamanho = 0) => {
     const listaEstaCheia = max - 1 === top;
 
     if (!max) {
-      console.log("O tamanho da pilha não foi deinido");
+      console.log("O tamanho da pilha não foi definido");
       return;
     }
 
